@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MostriVsEroi.Core\MostriVsEroi.Core.csproj" />
+    <ProjectReference Include="..\MostriVsEroi.DbRepository\MostriVsEroi.DbRepository.csproj" />
+  </ItemGroup>
+
+</Project>
